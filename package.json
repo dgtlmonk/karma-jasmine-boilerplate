@@ -1,0 +1,32 @@
+{
+  "name": "KarJas",
+  "version": "0.0.0",
+  "description": "Karma runner + Jasmin Test framework starter kit",
+  "main": "karma.conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./test/testSpec.js",
+    "postinstall":"./node_modules/.bin/karma start karma.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dgtlmonk/karma-jasmine-boilerplate.git"
+  },
+  "keywords": [
+    "Karma",
+    "Jasmin",
+    "Karma+Jasmin",
+    "Test",
+    "TDD/BDD",
+    "TDD",
+    "BDD"
+  ],
+  "author": "Joel Pablo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dgtlmonk/karma-jasmine-boilerplate/issues"
+  },
+  "homepage": "https://github.com/dgtlmonk/karma-jasmine-boilerplate"
+}
