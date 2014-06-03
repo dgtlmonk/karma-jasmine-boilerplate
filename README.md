@@ -2,13 +2,12 @@
 
 Personal use for quick unit testing boilerplate.
 
-Make sure karma is installed globally. Usage:
+Usage:
 
 #### Auto run
 
 `npm install`
 
-#### Manual
-`npm install karma -g` (you may need to install as superuser via 'sudo')
+#### Manual (Make sure karma is installed globally)
 
-`karma karma.conf.js`
+`karma start karma.conf.js`
