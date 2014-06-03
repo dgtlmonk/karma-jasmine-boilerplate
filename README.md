@@ -6,8 +6,12 @@ Usage:
 
 #### Auto run
 
-`npm install`
+```
+npm install
+```
 
 #### Manual (Make sure karma is installed globally)
 
-`karma start karma.conf.js`
+````
+karma start karma.conf.js
+```
