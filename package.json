@@ -8,11 +8,14 @@
   },
   "scripts": {
     "test": "./test/testSpec.js",
-    "postinstall":"./node_modules/.bin/karma start karma.conf.js"
+    "postinstall": "./node_modules/.bin/karma start karma.conf.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/dgtlmonk/karma-jasmine-boilerplate.git"
+  },
+  "dependencies": {
+    "karma": "latest"
   },
   "keywords": [
     "Karma",
@@ -28,5 +31,10 @@
   "bugs": {
     "url": "https://github.com/dgtlmonk/karma-jasmine-boilerplate/issues"
   },
-  "homepage": "https://github.com/dgtlmonk/karma-jasmine-boilerplate"
+  "homepage": "https://github.com/dgtlmonk/karma-jasmine-boilerplate",
+  "devDependencies": {
+    "karma-chrome-launcher": "^0.1.4",
+    "karma-firefox-launcher": "^0.1.3",
+    "karma-jasmine": "^0.1.5"
+  }
 }
