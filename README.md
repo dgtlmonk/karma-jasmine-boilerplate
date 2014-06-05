@@ -4,14 +4,8 @@ Personal use for quick unit testing boilerplate. But feel free to use :D
 
 Usage:
 
-#### Auto run
+#### Run and Go!
 
 ```
 npm install
-```
-
-#### Manual (Make sure karma is installed globally)
-
-````
-karma start karma.conf.js
 ```
