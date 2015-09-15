@@ -11,5 +11,9 @@
     "node_modules",
     "bower_components",
     "test"
-  ]
+  ],
+  "devDependencies": {
+    "jquery": "~2.1.4",
+    "jasmine-jquery": "~2.1.0"
+  }
 }
