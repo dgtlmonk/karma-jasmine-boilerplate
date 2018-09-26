@@ -1,0 +1,19 @@
+{
+  "name": "karma-jasmine-boilerplate",
+  "version": "1.0.0",
+  "homepage": "https://github.com/bengro/karma-jasmine-boilerplate",
+  "authors": [
+    "Benjamin Gröhbiel <benjamin.groehbiel@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test"
+  ],
+  "devDependencies": {
+    "jquery": "~2.1.4",
+    "jasmine-jquery": "~2.1.0"
+  }
+}

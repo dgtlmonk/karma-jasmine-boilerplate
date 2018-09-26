@@ -15,15 +15,18 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-        'test/*Spec.js'
+      'bower_components/jquery/dist/jquery.js',
+      'bower_components/jasmine-jquery/lib/jasmine-jquery.js',
+      'src/*.js',
+      'test/*.spec.js'
     ],
 
 
-    plugins : [ // !IMPORTANT
-            'karma-chrome-launcher',
-            'karma-firefox-launcher',
-            'karma-jasmine']
-    ,
+    plugins: [ // !IMPORTANT
+      'karma-chrome-launcher',
+      'karma-firefox-launcher',
+      'karma-jasmine'
+    ],
 
     // list of files to exclude
     exclude: [

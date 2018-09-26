@@ -1,11 +1,8 @@
-### Karma runner + Jasmin TDD/BDD boilerplate starter kit
+### Karma runner + Jasmine TDD/BDD boilerplate
 
-Personal use for quick unit testing boilerplate. But feel free to use :D
+Quick JS unit testing boilerplate with bower support.
 
-Usage:
-
-#### Run and Go!
-
-```
+#### Usage
+``
 npm install
-```
+``
