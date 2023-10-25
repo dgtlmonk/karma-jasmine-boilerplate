@@ -1,7 +1,16 @@
 {
   "name": "KarJas",
-  "version": "0.0.0",
-  "description": "Karma runner + Jasmin Test framework starter kit",
+  "version": "1.0.0",
+  "description": "Karma runner + Jasmin test framework starter kit",
+  "author": "Joel Pablo <hello@dgtlmonk.dev>",
+  "contributors": [
+    {
+    "name": "Ben Grohbiel",
+    "email": "benjamin.groehbiel@gmail.com",
+    "url": "https://github.com/bengro"
+   }
+  ],
+  "license": "ISC",
   "main": "karma.conf.js",
   "directories": {
     "test": "test"
@@ -23,15 +32,6 @@
     "TDD",
     "BDD"
   ],
-  "author": "Joel Pablo <hello@dgtlmonk.dev>",
-  "contributors": [
-    {
-    "name": "Ben Grohbiel",
-    "email": "benjamin.groehbiel@gmail.com",
-    "url": "https://github.com/bengro"
-   }
-  ],
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/dgtlmonk/karma-jasmine-boilerplate/issues"
   },
