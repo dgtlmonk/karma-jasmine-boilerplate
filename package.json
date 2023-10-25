@@ -23,7 +23,14 @@
     "TDD",
     "BDD"
   ],
-  "author": "Joel Pablo",
+  "author": "Joel Pablo <hello@dgtlmonk.dev>",
+  "contributors": [
+    {
+    "name": "Ben Grohbiel",
+    "email": "benjamin.groehbiel@gmail.com",
+    "url": "https://github.com/bengro"
+   }
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dgtlmonk/karma-jasmine-boilerplate/issues"
